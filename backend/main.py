@@ -2,6 +2,7 @@ from fastapi import FastAPI
 
 from pydantic import BaseModel
 
+
 import uvicorn
 
 from ai_agent import (
@@ -19,6 +20,7 @@ app = FastAPI(
 
     version="1.0.0"
 )
+
 
 # ---------------- REQUEST SCHEMA ---------------- #
 

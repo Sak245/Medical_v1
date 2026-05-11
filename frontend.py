@@ -5,7 +5,7 @@ import requests
 
 # ---------------- BACKEND CONFIG ---------------- #
 
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = st.secrets["BACKEND_URL"]
 
 # ---------------- PAGE CONFIG ---------------- #
 
